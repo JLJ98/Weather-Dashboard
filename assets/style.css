@@ -1,0 +1,44 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Your custom styles or Tailwind CSS classes can be added here */
+
+body {
+  font-family: 'Poppins', sans-serif; /* Use a Google Font like Poppins for a modern look */
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#search-form {
+  text-align: center; /* Use Tailwind CSS class without @apply */
+  margin-top: 8rem; /* Use Tailwind CSS class without @apply */
+}
+
+#weather-info {
+  text-align: center; /* Use Tailwind CSS class without @apply */
+  margin-top: 8rem; /* Use Tailwind CSS class without @apply */
+  background-color: #3490dc; /* Use Tailwind CSS class without @apply */
+  padding: 1.5rem; /* Use Tailwind CSS class without @apply */
+  border-radius: 0.375rem; /* Use Tailwind CSS class without @apply */
+  color: #fff; /* Use Tailwind CSS class without @apply */
+}
+
+#forecast {
+  display: flex; /* Use Tailwind CSS class without @apply */
+  justify-content: space-around; /* Use Tailwind CSS class without @apply */
+  flex-wrap: wrap; /* Use Tailwind CSS class without @apply */
+  margin-top: 8rem; /* Use Tailwind CSS class without @apply */
+}
+
+.day-card {
+  background-color: #fff; /* Use Tailwind CSS class without @apply */
+  border: 1px solid #ddd; /* Use Tailwind CSS class without @apply */
+  border-radius: 0.375rem; /* Use Tailwind CSS class without @apply */
+  padding: 1rem; /* Use Tailwind CSS class without @apply */
+  margin: 1rem; /* Use Tailwind CSS class without @apply */
+  text-align: center; /* Use Tailwind CSS class without @apply */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Use Tailwind CSS class without @apply */
+}
